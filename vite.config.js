@@ -8,7 +8,7 @@ import handlebars from 'vite-plugin-handlebars';
 import hbsContext  from './context/context';
 export default defineConfig(
     {
-       
+       base:'/',
         appType: 'mpa',
         base :"/Katherin_Aguilar_pw2/",
         build: {
